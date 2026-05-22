@@ -14,5 +14,9 @@ OMP_GATED_TOOLS="" - YOLO mode, nothing is gated.
 
 ## Slash commands
 /perms allow-all - return to YOLO mode in current session, which will disable all permission gates.  
-/perms list - list current (session) permission settings. 
+/perms list - list current (session) permission settings.  
 /perms reset - reset to default.  
+
+## Non-interactive mode
+
+If loaded in non-interactive mode, extension will automatically allow all tool calls.
